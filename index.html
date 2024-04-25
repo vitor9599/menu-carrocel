@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrocel</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripty.js"defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logotipo"><a href="">Dev maia</a></li>
+            <li class="hideMobile"><a href="#">Inicio</a></li>
+            <li class="hideMobile"><a href="#">Serviços</a></li>
+            <li class="hideMobile"><a href="#">Projetos</a></li>
+            <li class="hideMobile"><a href="#">Blog</a></li>
+            <li class="hideMobile"><a href="#">Contato</a></li>
+            <li class="hideDesktop"   onclick=" showSidebar()"><a href="#">
+                <svg class="icon"  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>   
+            </a></li>
+            
+        </ul>
+
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#">
+                <svg class="icon"  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+            </a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+            
+        </ul>
+    </nav>
+   
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">   
+            <input type="radio" name="btn-radio" id="radio2">   
+            <input type="radio" name="btn-radio" id="radio3">   
+            <input type="radio" name="btn-radio" id="radio4">   
+            <input type="radio" name="btn-radio" id="radio5"> 
+            <input type="radio" name="btn-radio" id="radio6">
+
+            <div class="slide-box primeiro">
+               <img src="https://cdn.pixabay.com/photo/2024/04/04/03/08/ai-generated-8674235_1280.png" alt="slide 1">
+            </div>
+
+            <div class="slide-box" >  
+               <img src="https://th.bing.com/th?id=OIP.v9PGKrnGptlo-ioJXgXccwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="slide 2">
+            </div> 
+
+            <div  class="slide-box" >
+               <img src="https://th.bing.com/th/id/OIP.TvwW2gQBuVHO4gDg0q9zOgHaE7?w=263&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="slide 3">
+            </div>
+
+            <div  class="slide-box">
+               <img src="https://th.bing.com/th/id/OIP.TuEURaf0TCoqVDvfhAhBsQHaE8?w=304&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="slide 4">
+            </div>
+
+            <div  class="slide-box">
+               <img src="https://th.bing.com/th/id/OIP.BSNz6V-0dtj_JPEsvO7O2AHaE8?w=263&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="slide 5">
+            </div>
+            
+            <div  class="slide-box">
+               <img src="https://th.bing.com/th/id/OIP.pN8rNrzrZqxMMOvYmuyMOQHaEc?w=275&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="slide 6">
+            </div> 
+
+            <!--ciar botoes para passr slider-->
+            <div class="nav-auto"><!--navegacao automatica-->
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+            </div>
+
+            <div class="nav-manual">
+               <label for="radio1" class="manual-btn"></label> 
+               <label for="radio2" class="manual-btn"></label> 
+               <label for="radio3" class="manual-btn"></label> 
+               <label for="radio4" class="manual-btn"></label> 
+               <label for="radio5" class="manual-btn"></label> 
+               <label for="radio6" class="manual-btn"></label> 
+            </div>
+            <div>
+                <h1></h1>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
