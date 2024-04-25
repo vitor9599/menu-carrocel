@@ -1,2 +1,2 @@
 Projeto com html,css,javascripty;
-Menu responsivel mais carrocel imagens
+Menu responsivel mais carrocel de imagens
